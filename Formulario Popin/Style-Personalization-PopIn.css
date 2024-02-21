@@ -1,6 +1,4 @@
 
-
-/** Botón Pagar **/
 .kr-popin-button{  
 	color: #ffffff !important;
 	background-color: #00A09D !important;
@@ -29,10 +27,9 @@
     transform: scale(1.5);
 }
 
-/** Logo footer **/
+
 .kr-embedded[kr-popin].kr-help-button-inner-field .kr-popin-modal-footer .kr-whitelabel-logo img {  border-radius: 4px;
 	content: url("https://github.com/izipay-pe/Imagenes/blob/main/logos_izipay/logo-izipay-sinFondo-250x102.png?raw=true"); max-height: 100%;margin-right: 30px}
-
 
 
 .kr-embedded{
@@ -87,7 +84,6 @@
 }
 
 
-/** Botón Pagar**/
 .kr-embedded .kr-payment-button {
   	color: #ffffff !important;
     background-color: #00A09D !important;
@@ -108,7 +104,6 @@
     color: #ffffff !important;
 }
 
-/** footer **/
 .kr-embedded[kr-popin], div.kr-popin-modal-footer{
 	border-radius: 10px !important;
 }
