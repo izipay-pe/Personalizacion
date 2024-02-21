@@ -1,5 +1,4 @@
 
-/*** maneja la posicion vertical de las etiquetas ***/
 .kr-field-wrapper{
     margin-top: 6px !important;
     margin-left: 10px !important;
@@ -23,7 +22,7 @@
 	padding: 25px !important;
     }  
 
-/*** Maneja la caja del formulario de pago ***/
+
  .kr-embedded {
     background-color: #fff !important;
     border-radius: 6px;
@@ -49,33 +48,29 @@
     border-radius: 4px !important;
 }
 
-/*** Fecha de tarjeta ***/
+
 .kr-expiry{
     height: 45px !important;
     border-radius: 4px !important;
     max-width: 49% !important;
 }
 
-/*** Codigo CVV ***/
 .kr-security-code{
     height: 45px !important;
     border-radius: 4px !important;
     max-width: 49% !important;
 }
 
-/*** Cuotas ***/
 .kr-installment-number{
     border-radius: 4px !important;
     height: 45px !important;
 }
 
-/*** Pago diferido ***/
 .kr-first-installment-delay{
     border-radius: 4px !important;
     height: 45px !important;
 }
 
-/* Button */
 .kr-embedded .kr-payment-button {
     color: #ffffff !important;
     background-color: #00A09D !important;
