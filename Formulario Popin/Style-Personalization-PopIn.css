@@ -1,6 +1,6 @@
 
 
-/** Botón PAGAR - hace aparecer el modal **/
+/** Botón Pagar **/
 .kr-popin-button{  
 	color: #ffffff !important;
 	background-color: #00A09D !important;
@@ -59,7 +59,6 @@
 	margin-top:60px !important;
 }
 
-/** Manejo de las casillas del Body **/
 .kr-field-wrapper{
 	margin-top: 3px !important;
 }
@@ -88,7 +87,7 @@
 }
 
 
-/** Botón PAGAR - dentro del modal PopIn **/
+/** Botón Pagar**/
 .kr-embedded .kr-payment-button {
   	color: #ffffff !important;
     background-color: #00A09D !important;
