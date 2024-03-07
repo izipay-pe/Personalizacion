@@ -1,3 +1,61 @@
+# Personalización de CSS en WordPress
+
+En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en WordPress para modificar la apariencia
+## Paso 1: Elegir el tipo de pasarela de pago
+
+1. En tu panel de administración de WordPress, ve a **Woocomerce**,  selecciona **Ajustes**, clic en **Pagos**, Luego clic en **Izipay pago Standar** y en **Modo de ingreso de datos de pago** encontraras los distintos tipo de pasarelas.
+
+#### Formulario Incrustado, Tema Classic
+
+<p align="center">
+  <img src="https://i.postimg.cc/P5NpFdhT/Formularios-Izipay.png" alt="Plugin" width="650"/>
+</p>
+
+
+#### Formulario Popin, Tema Classic
+
+<p align="center">
+  <img src="https://i.postimg.cc/L4QJ7vBj/popin-classic.png" alt="Plugin" width="650"/>
+</p>
+
+#### Formulario Incrustado, Tema Neon
+
+<p align="center">
+  <img src="https://i.postimg.cc/6qMpN6v9/incrustado-Neon.png" alt="Plugin" width="650"/>
+</p>
+
+#### Formulario Popin, Tema Neon
+
+
+<p align="center">
+  <img src="https://i.postimg.cc/vZWC1q0n/popin-neon.png" alt="Plugin" width="650"/>
+</p>
+
+## Paso 2: Personalizar el formulario
+
+2. En tu panel de administración de WordPress, ve a **Apariencia**, selecciona **Personalizar**.
+
+
+<p align="center">
+  <img src="https://i.postimg.cc/9fgBncDh/perrsonalizar-form.pngg" alt="Plugin" width="650"/>
+</p>
+
+
+3. En el personalizador, busca la opción de **CSS Adicional**. Esta opción puede estar en diferentes ubicaciones dependiendo del tema que estés usando.
+
+<p align="center">
+  <img src="https://i.postimg.cc/FshDzC5w/adicional-css.png" alt="Plugin" width="650"/>
+</p>
+
+
+5. Haz clic en **CSS Adicional** para abrir el editor de CSS y  puedes agregar estilos personalizados en el editor de CSS Adicional.
+   
+
+<p align="center">
+  <img src="https://i.postimg.cc/YSmQSYXv/css-estilos.png" alt="Plugin" width="350"/>
+</p>
+
+
 # Personalizacion
 
 | Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 (Enlace Web)                                  |
