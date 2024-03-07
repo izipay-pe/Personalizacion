@@ -1,0 +1,125 @@
+/** manejo de tamaño del banner de tarjetas **/
+.block.micuentawebstd-id-block{
+	margin-bottom: 13px!important;
+    color: #2e312f!important;
+}
+
+.micuentawebstd-id-block {
+    margin-bottom: -50px;
+    text-align: center;
+	font-size: 16px!important;
+color: #40ff96!important;
+}
+
+.micuentawebstd-view-top{
+	padding:0px!important;
+}
+
+/*controla el la letra "O"*/
+.micuentawebstd-cc-block.micuentawebstd-id-block{	
+	margin: 0px 10px!important;
+}
+
+.micuentawebstd-view-bottom{
+	margin-top: 10px!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: unset;
+    align-items: baseline!important;
+	width: 100%!important;
+    max-width: 366px!important;
+    padding-left: 0!important;
+}
+.micuentawebstd-view-bottom.micuentawebstd-view-bottom.micuentawebstd-view-bottom a {
+    font-size: 11px;
+    color: #FF4240;
+    font-weight: bold;
+}
+/*fin - Manejo del token*/
+
+/*** maneja la posicion vertical de las etiquetas ***/
+.kr-field-wrapper {
+    margin-top: 6px !important;
+    margin-left: 10px !important;
+}
+
+/*** Número de tarjeta ***/
+.kr-pan {
+    margin-top: 14px !important;
+    height: 45px !important;
+    border-radius: 4px !important;
+    width: 100% !important;
+}
+
+/*** Fecha de tarjeta ***/
+.kr-expiry {
+    height: 45px !important;
+    border-radius: 4px !important;
+    max-width: 100% !important;
+}
+
+/*** Codigo CVV ***/
+.kr-security-code {
+    height: 45px !important;
+    border-radius: 4px !important;
+    max-width: 100% !important;
+}
+
+.kr-embedded .kr-field-wrapper .kr-help-button-wrapper.kr-inner.kr-visible {
+	width: 25%!important;
+	display: flex!important;
+}
+
+/*** Cuotas ***/
+.kr-installment-number {
+    border-radius: 4px !important;
+    height: 45px !important;
+    width: 100% !important;
+}
+
+/*** Pago diferido ***/
+.kr-first-installment-delay {
+    border-radius: 4px !important;
+    height: 45px !important;
+    width: 100% !important;
+}
+
+/*** Maneja la caja donde se visualiza el formulario y logo ***/
+div:has(> #micuentawebstd_rest_wrapper), div:has(> .micuentawebstd-view-top) {
+	flex-direction: column!important;
+    justify-content: center!important;
+    width: 100%!important;
+    max-width: 360px!important;
+    background-color: #fff !important;
+    background-repeat: no-repeat;
+    background-position: center top 15px;
+    background-size:160px;
+    background-image: url("https://github.com/izipay-pe/Imagenes/blob/main/logos_izipay/logo-izipay-sinFondo-250x102.png?raw=true") !important;
+    border-radius: 6px;
+    box-shadow: 0px 10px 25px rgba(92, 99, 105, .2);
+    border: 1px solid #b3b6b5 !important;
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;        
+    padding: 78px 20px 20px 20px !important;
+    box-sizing: border-box; 
+}
+
+/*** Maneja la caja del formulario de pago ***/
+.kr-embedded {
+    background-color: #fff !important;
+    border-radius: 6px;
+    border: 1px solid #b3b6b5 !important;
+    box-shadow: 0px 10px 25px rgba(92, 99, 105, .2);
+    padding: 20px !important;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%!important;
+}
+
+.wc-block-components-radio-control-accordion-content p:last-child {
+    display: none;
+}
+
+.micuentawebstd-view-top .micuentawebstd-cc-block {
+	display: none!important;
+}
