@@ -1,0 +1,73 @@
+body#checkout .additional-information {
+    margin-top: 1.25rem;
+    margin-left: 0px!important;
+    font-size: .875rem;
+}
+/*** Maneja la caja donde se visualiza el formulario y logo ***/
+#micuentaweb_standard_rest_wrapper&gt; div {
+	background-color: #fff !important;
+	background-repeat: no-repeat;
+	background-position: center top 15px;
+	background-size: 160px;
+	background-image: url("https://github.com/izipay-pe/Imagenes/blob/main/logos_izipay/logo-izipay-sinFondo-250x102.png?raw=true") !important;
+	border-radius: 6px;
+	box-shadow: 0px 10px 25px rgba(92, 99, 105, .2);
+	border: 1px solid #b3b6b5 !important;
+	width: 100%;
+    padding: 78px 20px 20px 20px !important;
+    margin: auto;
+}
+
+/*** Maneja la caja del formulario de pago ***/
+.kr-smart-form .kr-smart-form-wrapper.kr-type-embedded .kr-embedded {
+    width: 100%;
+    display: flex;
+    background-color: #fff !important;
+    border-radius: 8px!important;
+    border: 1px solid #b3b6b5 !important;
+    box-shadow: 0px 10px 25px rgba(92, 99, 105, .2)!important;
+    padding: 20px!important;
+    box-sizing: border-box !important;
+}
+
+
+.kr-smart-form[kr-single-payment-button] {
+    width: 100% !important;
+    max-width: 340px !important;
+}
+
+/*** Maneja la relacion de espacios ***/
+.kr-embedded.kr-embedded-flex-display.kr-embedded-flex-direction-column {
+	display:flex !important;
+    flex-direction: row !important;
+	justify-content: space-between!important;
+}
+
+
+.kr-embedded .kr-field-element.kr-disabled.kr-pan{
+background-color: #fff !important;
+}
+
+.kr-input-field {
+background-color: #fff !important;
+}
+
+.kr-embedded .kr-field-element:not(.kr-checkbox, .kr-radio) .kr-field-component{
+background-color: #fff !important;
+}
+
+/*** Fecha de tarjeta ***/
+.kr-expiry{
+height: 45px !important;
+border-radius: 4px !important;
+max-width: 49% !important;
+background-color: #fff !important;
+}
+
+/*** Codigo CVV ***/
+.kr-security-code{
+height: 45px !important;
+border-radius: 4px !important;
+max-width: 49% !important;
+background-color: #fff !important;
+}

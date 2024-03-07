@@ -1,0 +1,158 @@
+/*------------------- Tamaño de caja header-image ------------- */
+
+.kr-smart-form .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header .kr-popin-modal-header-image {
+    position: absolute;
+    bottom: 9px!important;
+    left: 10px;
+    width: 60px!important;
+    height: 55px!important;
+}
+
+/*----------Img Logo Izipay ------------- */
+
+.kr-smart-form .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header
+.kr-smart-form-modal-header .kr-popin-modal-header-image, .kr-smart-form 
+.kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header
+.kr-smart-form-modal-header .kr-popin-modal-header-image .kr-header-border-shadow, 
+.kr-smart-form .kr-smart-form-modal-wrapper 
+.kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header 
+.kr-popin-modal-header-image {
+
+    content:url("https://raw.githubusercontent.com/izipay-pe/Imagenes/main/logos_izipay/logo-Z-fondoRojo-200x200.png")!important;
+    border-radius: 50% !important;
+}
+
+
+ /* -------------------Tamaño de caja Border-image-------------  */
+
+
+.kr-smart-form[kr-popin] .kr-smart-form-wrapper.kr-type-popin .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header .kr-popin-modal-header-image .kr-header-border {
+   width: 64px!important;
+   height: 62px!important;
+    background-color: #293c7a;
+}
+
+ /* ----------------Tamaño de caja logo -------------  */
+
+.kr-smart-form[kr-popin] .kr-smart-form-wrapper.kr-type-popin .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header .kr-popin-modal-header-image .kr-header-logo{
+    width: 63px !important;
+    height: 61px !important;
+}
+
+
+
+ .kr-smart-form[kr-popin] .kr-smart-form-wrapper.kr-type-popin .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header span.kr-popin-amount, .kr-smart-form[kr-popin] .kr-smart-form-wrapper.kr-type-popin .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header span.kr-popin-order-id {
+    right: none;
+    left: 80px!important;
+    display: block;
+}
+
+/* ----Manejo del token -----*/
+
+.block.micuentawebstd-id-block{
+	margin-bottom: 13px!important;
+}
+
+.micuentawebstd-view-top{
+  padding:0px!important;
+}
+
+/*controla el la letra "O"*/
+.micuentawebstd-cc-block.micuentawebstd-id-block{        
+ margin: 0px 10px!important;
+}
+
+.micuentawebstd-view-bottom{
+	margin-top: 10px!important;
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: unset;
+    align-items: baseline!important;
+	width: 100%!important;
+    max-width: 366px!important;
+    padding-left: 0!important;
+}
+
+
+.micuentawebstd-view-bottom.micuentawebstd-view-bottom.micuentawebstd-view-bottom a {
+    font-size: 11px;
+    color: #FF4240;
+    font-weight: bold;
+}
+
+
+/*fin - Manejo del token*/
+
+
+
+/*Maneja la caja del formulario de pago */
+.kr-embedded {
+    display: flex;
+    background-color: #fff !important;
+    padding: 5px !important;
+    box-sizing: border-box !important;
+
+}
+
+.kr-smart-form[kr-popin] .kr-smart-form-wrapper.kr-type-popin .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-smart-form-methods {
+    min-height: 354px!important;
+    overflow: visible;
+    background-color: #fff;
+    display: block;
+    height: 100%;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.kr-embedded .kr-form-error, .kr-smart-form .kr-form-error {
+    box-sizing: border-box;
+    margin-bottom: 7px;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    background-color: #b71c1c;
+    display: block;
+}
+
+.kr-embedded .kr-form-error span, .kr-smart-form .kr-form-error span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+    color: #fff !important;
+    padding: 5px 3px;
+    display: inline-block;
+    font-size: 1em;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    cursor: default;
+}
+
+/*** Maneja  kr-expiryy kr-security-code en una sola fila***/
+.kr-embedded.kr-embedded-flex-display.kr-embedded-flex-direction-column {
+	display:flex !important;
+    flex-direction: row !important;
+	justify-content: space-between!important;
+}
+
+/*** Fecha de tarjeta ***/
+.kr-expiry{
+height: 45px !important;
+border-radius: 4px !important;
+max-width: 49% !important;
+}
+
+/*** Codigo CVV ***/
+.kr-security-code{
+height: 45px !important;
+border-radius: 4px !important;
+max-width: 49% !important;
+}
+
+/* Maneja checkbox token */
+.kr-do-register .kr-checkbox-layout {
+    display: flex!important;
+    align-items: center; 
+}
