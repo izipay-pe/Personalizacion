@@ -1,4 +1,16 @@
- /*------------------- Tamaño de caja header-image ------------- */
+/** Personalización de tarjetas aceptadas para Woocommerce Legacy - Shortcode (< 8.4) **/
+.payment_method_micuentawebstd img:not(.kr-header-logo,.kr-logo-izipay) {
+    content: url("https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true");
+    max-width: 200px!important;
+}
+
+/** Personalización de tarjetas aceptadas para Woocommerce Blocks (>= 8.4) **/
+#radio-control-wc-payment-method-options-micuentawebstd__label img:not(.kr-header-logo,.kr-logo-izipay) {
+        content: url("https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true");
+    max-width: 200px!important;
+}
+
+/*------------------- Tamaño de caja header-image ------------- */
 
 .kr-smart-form .kr-smart-form-modal-wrapper .kr-smart-form-modal .kr-popin-modal-header.kr-smart-form-modal-header .kr-popin-modal-header-image {
     position: absolute;
