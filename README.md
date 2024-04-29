@@ -42,7 +42,7 @@ En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en 
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/9fgBncDh/perrsonalizar-form.pngg" alt="Plugin" width="650"/>
+  <img src="https://i.postimg.cc/26VcPwYc/Wordpress-Apariencia.png" alt="Plugin" width="450"/>
 </p>
 <br>
 
@@ -50,7 +50,7 @@ En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en 
    Luego clic en **CSS Adicional** para abrir el editor de CSS y  puedes agregar estilos personalizados en el editor de CSS Adicional.
 
 <p align="center">
-  <img src="https://i.postimg.cc/FshDzC5w/adicional-css.png" alt="Plugin" width="650"/>
+  <img src="https://i.postimg.cc/8k7931Pp/wordpress-css-Adicional.png" alt="Plugin" width="400"/>
 </p>
 <br>
 
