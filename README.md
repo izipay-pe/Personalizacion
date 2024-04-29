@@ -55,7 +55,7 @@ En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en 
 <br>
 
 # Personalizar iconos de tarjetas
-
+La pasarela de Izipay por defecto incluye los iconos de Visa y Mastercard, puedes actualizar los iconos mediante código CSS con las tarjetas que actualmente acepta la pasarela de Izipay (Visa, Mastercard, American Express y Dinners). Se recomienda descargar la imagen del [enlace](https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true), subir la imagen a Medios en Wordpresss y reemplazar el enlace generado en el código CSS.
 1. Actualizar iconos de tarjeta (Visa, Mastercard, American Express y Dinners) en su página.
 
 
@@ -66,7 +66,7 @@ En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en 
 <br><br>
 
 
-- Tener en cuenta que exiten 2 versiones para woocomerce:
+- Tener en cuenta que existen 2 versiones para Woocommerce:
   
   WooCommerce Legacy - Shortcode: Estilos que debes usar para una versión de WooCommerce < 8.4 <br><br>
 
@@ -74,6 +74,7 @@ En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en 
 .payment_method_micuentawebstd img:not(.kr-header-logo,.kr-logo-izipay) {
     content: url("https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true");
     max-width: 200px!important;
+}
 ```
 
    Woocommerce Blocks: Estilos que debes usar para una versión de WooCommerce >= 8.4 <br><br>
@@ -82,6 +83,7 @@ En este README, aprenderás cómo personalizar la pasarela de Izipay con CSS en 
 #radio-control-wc-payment-method-options-micuentawebstd__label img:not(.kr-header-logo,.kr-logo-izipay) {
         content: url("https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true");
     max-width: 200px!important;
+}
 ```
 
 <br>
