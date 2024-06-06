@@ -3,6 +3,15 @@ body#checkout .additional-information {
     margin-left: 0px!important;
     font-size: .875rem;
 }
+
+.payment-option label img[src*="micuentaweb"] {
+    content: url(https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true) !important;
+    float: none!important;
+    max-width: 200px;
+    margin-right: 12px;
+    max-height: 30px;
+}
+
 /*** Maneja la caja donde se visualiza el formulario y logo ***/
 #micuentaweb_standard_rest_wrapper&gt; div {
 	background-color: #fff !important;
@@ -14,6 +23,7 @@ body#checkout .additional-information {
 	box-shadow: 0px 10px 25px rgba(92, 99, 105, .2);
 	border: 1px solid #b3b6b5 !important;
 	width: 100%;
+    max-width: 360px;
     padding: 78px 20px 20px 20px !important;
     margin: auto;
 }
