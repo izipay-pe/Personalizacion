@@ -1,3 +1,11 @@
+.payment-option label img[src*="micuentaweb"] {
+    content: url(https://github.com/izipay-pe/Imagenes/blob/main/logo_tarjetas_aceptadas/logo-tarjetas-aceptadas-351x42.png?raw=true)!important;
+    float: none!important;
+    max-width: 200px;
+    margin-right: 12px;
+    max-height: 30px;
+}
+
 /*** maneja la posicion vertical de las etiquetas ***/
 .kr-field-wrapper {
     margin-top: 6px !important;
