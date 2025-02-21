@@ -106,3 +106,18 @@ div:has(> .micuentawebstd-view-top) {
 .micuentawebstd-view-top .micuentawebstd-cc-block {
     display: none !important;
 }
+
+
+/** Estilos de campos de entrada **/
+.kr-input-field {
+    border: 0 !important;
+    width: 100% !important;
+    height: 33px !important;
+}
+
+.kr-input-field::placeholder {
+    all: initial !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px !important;
+    color: #999 !important;
+}
