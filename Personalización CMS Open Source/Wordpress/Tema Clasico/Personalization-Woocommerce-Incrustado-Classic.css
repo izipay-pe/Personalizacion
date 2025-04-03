@@ -110,7 +110,6 @@ div:has(> .micuentawebstd-view-top) {
 
 /** Estilos de campos de entrada **/
 .kr-input-field {
-    all: initial !important;
     border: 0 !important;
     width: 100% !important;
     height: 33px !important;
